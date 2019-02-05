@@ -1,5 +1,5 @@
 # iOS Core
-![MIT](https://img.shields.io/npm/l/:packageName.svg?registry_uri=https%3A%2F%2Fregistry.npmjs.com) ![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)
+![MIT](https://img.shields.io/bower/l/:packageName.svg) ![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)
 
 
 ## Installation with Carthage
