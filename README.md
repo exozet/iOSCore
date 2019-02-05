@@ -6,7 +6,7 @@
 Add the following line to your Cartfile:
 
 ```
-github "imaginary-cloud/CameraManager" >= 4.3
+github "exozet/iOSCore" >= 0.0.1
 ```
 
 And run `carthage update` to build the dynamic framework.
