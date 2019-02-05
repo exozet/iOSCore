@@ -9,14 +9,14 @@ import UIKit
 
 extension UITextField {
     
-    @IBInspectable var localizedPlaceholder: String {
+    @IBInspectable public var localizedPlaceholder: String {
         get { return "" }
         set {
             self.placeholder = newValue.localized
         }
     }
     
-    @IBInspectable var localizedText: String {
+    @IBInspectable public  var localizedText: String {
         get { return "" }
         set {
             self.text = newValue.localized
@@ -26,7 +26,7 @@ extension UITextField {
 
 extension UITextView {
     
-    @IBInspectable var localizedText: String {
+    @IBInspectable public var localizedText: String {
         get { return "" }
         set {
             self.text = newValue.localized
@@ -36,7 +36,7 @@ extension UITextView {
 
 extension UIBarItem {
     
-    @IBInspectable var localizedTitle: String {
+    @IBInspectable public var localizedTitle: String {
         get { return "" }
         set {
             self.title = newValue.localized
@@ -44,9 +44,9 @@ extension UIBarItem {
     }
 }
 
-extension UILabel {
+extension  UILabel  {
     
-    @IBInspectable var localizedText: String {
+    @IBInspectable public var localizedText: String {
         get { return "" }
         set {
             self.text = newValue.localized
@@ -56,7 +56,7 @@ extension UILabel {
 
 extension UINavigationItem {
     
-    @IBInspectable var localizedTitle: String {
+    @IBInspectable public var localizedTitle: String {
         get { return "" }
         set {
             self.title = newValue.localized
@@ -66,7 +66,7 @@ extension UINavigationItem {
 
 extension UIButton {
     
-    @IBInspectable var localizedTitle: String {
+    @IBInspectable public var localizedTitle: String {
         get { return "" }
         set {
             self.setTitle(newValue.localized, for: .normal)
@@ -76,14 +76,14 @@ extension UIButton {
 
 extension UISearchBar {
     
-    @IBInspectable var localizedPrompt: String {
+    @IBInspectable public var localizedPrompt: String {
         get { return "" }
         set {
             self.prompt = newValue.localized
         }
     }
     
-    @IBInspectable var localizedPlaceholder: String {
+    @IBInspectable public var localizedPlaceholder: String {
         get { return "" }
         set {
             self.placeholder = newValue.localized
@@ -93,7 +93,7 @@ extension UISearchBar {
 
 extension UISegmentedControl {
     
-    @IBInspectable var localized: Bool {
+    @IBInspectable public var localized: Bool {
         get { return true }
         set {
             for index in 0..<numberOfSegments {
@@ -104,7 +104,7 @@ extension UISegmentedControl {
     }
 }
 extension String {
-    var localized: String {
+  public  var localized: String {
         return NSLocalizedString(self, comment: "")
     }
     

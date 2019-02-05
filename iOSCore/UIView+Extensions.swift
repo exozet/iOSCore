@@ -12,13 +12,13 @@ import UIKit
 extension UIView
 {
     
-func fadeIn(duration: TimeInterval = 0.3, completion: @escaping ((Bool) -> Void) = {(finished: Bool) -> Void in}) {
+public func fadeIn(duration: TimeInterval = 0.3, completion: @escaping ((Bool) -> Void) = {(finished: Bool) -> Void in}) {
     UIView.animate(withDuration: duration, delay: 0, options: UIView.AnimationOptions.curveEaseIn, animations: {
         self.alpha = 1.0
     }, completion: completion)
 }
 
-func fadeOut(duration: TimeInterval = 0.3, completion: @escaping (Bool) -> Void = {(finished: Bool) -> Void in}) {
+public func fadeOut(duration: TimeInterval = 0.3, completion: @escaping (Bool) -> Void = {(finished: Bool) -> Void in}) {
     UIView.animate(withDuration: duration, delay: 0, options: UIView.AnimationOptions.curveEaseIn, animations: {
          self.alpha = 0.0
     }, completion: completion)
@@ -26,7 +26,7 @@ func fadeOut(duration: TimeInterval = 0.3, completion: @escaping (Bool) -> Void 
 
 }
 extension UIView {
-    func animateBorderColor(borderWidth:CGFloat,toColor: UIColor, duration: Double) {
+ public   func animateBorderColor(borderWidth:CGFloat,toColor: UIColor, duration: Double) {
         let animation:CABasicAnimation = CABasicAnimation(keyPath: "borderColor")
         animation.fromValue = layer.borderColor
         animation.toValue = toColor.cgColor

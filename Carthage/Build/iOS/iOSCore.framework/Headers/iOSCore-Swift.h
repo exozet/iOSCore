@@ -192,24 +192,50 @@ SWIFT_CLASS("_TtC7iOSCore19LoginViewController")
 @end
 
 
+@interface UIBarItem (SWIFT_EXTENSION(iOSCore))
+@property (nonatomic, copy) NSString * _Nonnull localizedTitle;
+@end
+
+
+@interface UIButton (SWIFT_EXTENSION(iOSCore))
+@property (nonatomic, copy) NSString * _Nonnull localizedTitle;
+@end
 
 
 
 
+@interface UILabel (SWIFT_EXTENSION(iOSCore))
+@property (nonatomic, copy) NSString * _Nonnull localizedText;
+@end
+
+
+@interface UINavigationItem (SWIFT_EXTENSION(iOSCore))
+@property (nonatomic, copy) NSString * _Nonnull localizedTitle;
+@end
+
+
+@interface UISearchBar (SWIFT_EXTENSION(iOSCore))
+@property (nonatomic, copy) NSString * _Nonnull localizedPrompt;
+@property (nonatomic, copy) NSString * _Nonnull localizedPlaceholder;
+@end
+
+
+@interface UISegmentedControl (SWIFT_EXTENSION(iOSCore))
+@property (nonatomic) BOOL localized;
+@end
 
 
 
 
+@interface UITextField (SWIFT_EXTENSION(iOSCore))
+@property (nonatomic, copy) NSString * _Nonnull localizedPlaceholder;
+@property (nonatomic, copy) NSString * _Nonnull localizedText;
+@end
 
 
-
-
-
-
-
-
-
-
+@interface UITextView (SWIFT_EXTENSION(iOSCore))
+@property (nonatomic, copy) NSString * _Nonnull localizedText;
+@end
 
 
 

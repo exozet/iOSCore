@@ -10,17 +10,17 @@ import Foundation
 import UIKit
 extension String {
     
-    var isValidEmail: Bool {
+   public var isValidEmail: Bool {
         let emailRegEx = "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}"
         return NSPredicate(format: "SELF MATCHES %@", emailRegEx).evaluate(with: self)
     }
-    var isValidPassword:Bool{
+   public var isValidPassword:Bool{
         let passwordRegEx = "^(?=.*[A-Za-z])(?=.*\\d)[A-Za-z0-9 !\"#$%&'()*+,-./:;<=>?@\\[\\\\\\]^_`{|}~]{8,}$"
       return NSPredicate(format: "SELF MATCHES %@", passwordRegEx).evaluate(with: self)
     }
 }
 extension UILabel {
-    func changeColor (fullText : String , changeText : String ) {
+   public func changeColor (fullText : String , changeText : String ) {
         let strNumber: NSString = fullText as NSString
         let range = (strNumber).range(of: changeText)
         let attribute = NSMutableAttributedString.init(string: fullText)
@@ -30,7 +30,7 @@ extension UILabel {
 }
 
 extension UITapGestureRecognizer {
-    func didTapAttributedTextInLabel(label: UILabel, inRange targetRange: NSRange) -> Bool {
+  public  func didTapAttributedTextInLabel(label: UILabel, inRange targetRange: NSRange) -> Bool {
         guard let attrString = label.attributedText else {
             return false
         }
