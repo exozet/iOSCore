@@ -1,4 +1,7 @@
 # iOS Core
+[![MIT](https://img.shields.io/npm/l/:packageName.svg?registry_uri=https%3A%2F%2Fregistry.npmjs.com)] ![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)]
+
+
 ## Installation with Carthage
 
 [Carthage](https://github.com/Carthage/Carthage) is another dependency management tool written in Swift.
@@ -10,6 +13,13 @@ github "exozet/iOSCore" ~> 0.0.1
 ```
 
 And run `carthage update` to build the dynamic framework.
+
+- Under embeded binaries add manually iOSCore.framework and then import as normal pod, like:
+
+```
+import iOSCore
+```
+
 
 ## Support
 
