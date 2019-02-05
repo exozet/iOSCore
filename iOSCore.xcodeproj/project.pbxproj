@@ -10,6 +10,9 @@
 		689F8EAB2200969E00C1CE7B /* iOSCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 689F8EA92200969E00C1CE7B /* iOSCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		689F8EB3220096C000C1CE7B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 689F8EB1220096C000C1CE7B /* LoginViewController.swift */; };
 		689F8EB4220096C000C1CE7B /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 689F8EB2220096C000C1CE7B /* LoginViewController.xib */; };
+		68D2DDD12209DEE20008D9A4 /* UIKit+Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D2DDD02209DEE10008D9A4 /* UIKit+Localization.swift */; };
+		68D2DDD32209DEEA0008D9A4 /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D2DDD22209DEEA0008D9A4 /* UIView+Extensions.swift */; };
+		68D2DDD52209DEF10008D9A4 /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D2DDD42209DEF10008D9A4 /* String+Extensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -18,6 +21,9 @@
 		689F8EAA2200969E00C1CE7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		689F8EB1220096C000C1CE7B /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		689F8EB2220096C000C1CE7B /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
+		68D2DDD02209DEE10008D9A4 /* UIKit+Localization.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIKit+Localization.swift"; sourceTree = "<group>"; };
+		68D2DDD22209DEEA0008D9A4 /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		68D2DDD42209DEF10008D9A4 /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +58,9 @@
 			children = (
 				689F8EA92200969E00C1CE7B /* iOSCore.h */,
 				689F8EB1220096C000C1CE7B /* LoginViewController.swift */,
+				68D2DDD02209DEE10008D9A4 /* UIKit+Localization.swift */,
+				68D2DDD22209DEEA0008D9A4 /* UIView+Extensions.swift */,
+				68D2DDD42209DEF10008D9A4 /* String+Extensions.swift */,
 				689F8EB2220096C000C1CE7B /* LoginViewController.xib */,
 				689F8EAA2200969E00C1CE7B /* Info.plist */,
 			);
@@ -138,7 +147,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				68D2DDD52209DEF10008D9A4 /* String+Extensions.swift in Sources */,
+				68D2DDD32209DEEA0008D9A4 /* UIView+Extensions.swift in Sources */,
 				689F8EB3220096C000C1CE7B /* LoginViewController.swift in Sources */,
+				68D2DDD12209DEE20008D9A4 /* UIKit+Localization.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
