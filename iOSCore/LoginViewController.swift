@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LoginViewController: UIViewController {
+public class LoginViewController: UIViewController {
 
    public init() {
         super.init(nibName: "LoginViewController", bundle: Bundle(for: LoginViewController.self))
