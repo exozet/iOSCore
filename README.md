@@ -1,5 +1,5 @@
 # iOS Core
-![MIT](https://img.shields.io/github/license/:user/:repo.svg) ![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)
+![MIT](https://img.shields.io/github/license/exozet/iOSCore.svg?style=flat) ![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)
 
 
 ## Installation with Carthage
