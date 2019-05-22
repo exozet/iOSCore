@@ -1,6 +1,5 @@
 # iOS Core
-![MIT](https://img.shields.io/github/license/exozet/iOSCore.svg?style=flat) ![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)
-
+![MIT](https://img.shields.io/github/license/exozet/iOSCore.svg?style=flat) ![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat) [![Hits-of-Code](https://hitsofcode.com/github/exozet/iOSCore)](https://hitsofcode.com/view/github/exozet/iOSCore)
 
 ## Installation with Carthage
 
